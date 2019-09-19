@@ -1,0 +1,15 @@
+﻿<Window x:Class="Interacciones.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interacciones"
+        mc:Ignorable="d"
+        Title="Interacciones" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanResize" Background="Black">
+    <Grid >
+        <TextBlock x:Name="lbl_Saludo" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Impact" Foreground="White">¡Hola mundo!</TextBlock>
+        <Button x:Name="btn_MiBoton" Width="80" Height="30" Margin="20,50,0,0">Botón</Button>
+        <Button x:Name="btnMiSegundoBoton" Margin="333,280,318.6,100" Click="BtnMiSegundoBoton_Click">iiiiii</Button>
+        <Button x:Name="btnMiTercerBoton" Margin="333,140,318.6,240" Click="BtnMiTercerBoton_Click">uuuu</Button>
+    </Grid>
+</Window>
